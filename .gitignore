@@ -25,6 +25,11 @@ build/
 bin/
 obj/
 
+# VS 项目文件（不上传——clone 后自行创建工程即可）
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 # VS 用户特定的配置文件（不应提交到版本库）
 *.suo
 *.user
@@ -41,6 +46,9 @@ obj/
 # ==========================================
 # VSCode 专属配置文件夹（包含 launch.json, tasks.json 等）
 .vscode/
+
+# Claude Code 本地配置
+.claude/
 
 # ==========================================
 # 4. 系统生成的垃圾文件
